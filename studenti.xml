@@ -12,6 +12,12 @@
         <mail>riir3478@scs.ubbcluj.ro</mail>
         <profesor>Plesu Andrei</profesor>
     </Student>
+    <Student idStudent="2206">
+        <nume>Alex</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.com</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
     <Student idStudent="2">
         <nume>Gorea Andra</nume>
         <grupa>921</grupa>
