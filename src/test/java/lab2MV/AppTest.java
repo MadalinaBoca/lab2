@@ -22,7 +22,7 @@ public class AppTest
     }
 
     @Test
-    public void addStudentGood() {
+    public void addStudentGoodEmail() {
         StudentRepo repo =new StudentRepo(new StudentValidator(),"studenti.xml");
 
         String id = "2206";
@@ -36,7 +36,7 @@ public class AppTest
     }
 
     @Test
-    public void addStudentBad() {
+    public void addStudentBadEmail() {
         StudentRepo repo =new StudentRepo(new StudentValidator(),"studenti.xml");
 
         String id = "2206";
