@@ -35,17 +35,17 @@ public class AppTest
 
     }
 
-    @Test
-    public void addStudentBadEmail() {
-        StudentRepo repo =new StudentRepo(new StudentValidator(),"studenti.xml");
-
-        String id = "2206";
-        String name = "Alex";
-        int group = 931;
-        String email = "pbie2206scs";
-        String teacher = "Profesor X";
-
-        repo.save(new Student(id,name,group,email,teacher));
-
-    }
+//    @Test
+//    public void addStudentBadEmail() {
+//        StudentRepo repo =new StudentRepo(new StudentValidator(),"studenti.xml");
+//
+//        String id = "2206";
+//        String name = "Alex";
+//        int group = 931;
+//        String email = "pbie2206scs";
+//        String teacher = "Profesor X";
+//
+//        repo.save(new Student(id,name,group,email,teacher));
+//
+//    }
 }
