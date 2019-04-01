@@ -42,7 +42,7 @@ public class AppTest
         String id = "2206";
         String name = "Alex";
         int group = 931;
-        String email = "pbie2206scs";
+        String email = "pbie2206@scs.ro";
         String teacher = "Profesor X";
 
         repo.save(new Student(id,name,group,email,teacher));
