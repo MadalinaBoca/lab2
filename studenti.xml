@@ -6,6 +6,12 @@
         <mail>mmm@gmail.com</mail>
         <profesor>ppp</profesor>
     </Student>
+    <Student idStudent="2207">
+        <nume>Popsor Alexandru</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.ro</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
     <Student idStudent="1">
         <nume>Roman Ionut</nume>
         <grupa>222</grupa>
@@ -24,10 +30,34 @@
         <mail>gaie1234@scs.ubbcluj.ro</mail>
         <profesor>Lovin Andrei</profesor>
     </Student>
+    <Student idStudent="20">
+        <nume>Alex</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.com</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
+    <Student idStudent="2209">
+        <nume>Popsor Alexandru</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.ro</mail>
+        <profesor>Boca Madalina</profesor>
+    </Student>
     <Student idStudent="10">
         <nume>Popsor</nume>
         <grupa>931</grupa>
         <mail>pbie2206@scs.com</mail>
         <profesor>vfejkf</profesor>
+    </Student>
+    <Student idStudent="21">
+        <nume>Alex</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.com</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
+    <Student idStudent="2208">
+        <nume>Popsor Alexandru</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.ro</mail>
+        <profesor>Profesor X</profesor>
     </Student>
 </inbox>
