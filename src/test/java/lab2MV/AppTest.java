@@ -108,7 +108,7 @@ public class AppTest
     }
 
     @Test(expected = NullPointerException.class)
-    public void addStudendNullEmail(){
+    public void addStudentNullEmail(){
         StudentRepo repo =new StudentRepo(new StudentValidator(),"studenti.xml");
 
         String id = "2206";
@@ -121,7 +121,7 @@ public class AppTest
     }
 
     @Test(expected = ValidationException.class)
-    public void addStudendEmptyStringEmail(){
+    public void addStudentEmptyStringEmail(){
         StudentRepo repo =new StudentRepo(new StudentValidator(),"studenti.xml");
 
         String id = "2206";
