@@ -20,6 +20,11 @@
         <deadline>8</deadline>
         <sapt_primire>4</sapt_primire>
     </Tema>
+    <Tema nr="100">
+        <descriere>Descriere</descriere>
+        <deadline>14</deadline>
+        <sapt_primire>13</sapt_primire>
+    </Tema>
     <Tema nr="10">
         <descriere>sdfd</descriere>
         <deadline>11</deadline>

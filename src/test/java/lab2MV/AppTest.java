@@ -3,8 +3,11 @@ package lab2MV;
 import static org.junit.Assert.assertTrue;
 
 import Domain.Student;
+import Domain.Teme;
 import Repository.StudentRepo;
+import Repository.TemeRepo;
 import Validator.StudentValidator;
+import Validator.TemeValidator;
 import Validator.ValidationException;
 import org.junit.Test;
 
@@ -287,5 +290,29 @@ public class AppTest
         String teacher = "Boca Madalina";
 
         repo.save(new Student(id,name,group,email,teacher));
+    }
+
+    @Test
+    public void addAssignmentGoodDeadline(){
+        TemeRepo repo = new TemeRepo(new TemeValidator(), "teme.xml");
+
+        int nr = 100;
+        String descriere = "Descriere";
+        int deadline = 13;
+        int sapt_primire = 14;
+
+        repo.save(new Teme(nr, descriere, deadline, sapt_primire));
+    }
+
+    @Test(expected = ValidationException.class)
+    public void addAssignmentBadDeadline(){
+        TemeRepo repo = new TemeRepo(new TemeValidator(), "teme.xml");
+
+        int nr = 100;
+        String descriere = "Descriere";
+        int deadline = 15;
+        int sapt_primire = 14;
+
+        repo.save(new Teme(nr, descriere, deadline, sapt_primire));
     }
 }
