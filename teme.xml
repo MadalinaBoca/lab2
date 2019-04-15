@@ -30,4 +30,9 @@
         <deadline>11</deadline>
         <sapt_primire>10</sapt_primire>
     </Tema>
+    <Tema nr="13">
+        <descriere>Nu stiu de0astea</descriere>
+        <deadline>8</deadline>
+        <sapt_primire>5</sapt_primire>
+    </Tema>
 </Teme>
