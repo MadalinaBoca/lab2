@@ -106,7 +106,7 @@ public class NoteRepo extends AbstractRepo<Nota,Map.Entry<String,Integer>> {
             t.setOutputProperty(OutputKeys.METHOD, "xml");
             t.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
             t.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
-            t.transform(new DOMSource(doc),new StreamResult(new FileOutputStream("Catalog.xml",true)));
+            t.transform(new DOMSource(doc),new StreamResult(new FileOutputStream("Catalog2.xml",true)));
         }
         catch (Exception e){e.printStackTrace();}
     }

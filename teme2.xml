@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Teme>
+    <Tema nr="100">
+        <descriere>O descriere</descriere>
+        <deadline>10</deadline>
+        <sapt_primire>8</sapt_primire>
+    </Tema>
+</Teme>
