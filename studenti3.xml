@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <Student idStudent="1113">
+        <nume>Popsor Alexandru</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.ro</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
+    <Student idStudent="1112">
+        <nume>Popsor Alexandru</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.ro</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
+    <Student idStudent="1111">
+        <nume>Popsor Alexandru</nume>
+        <grupa>931</grupa>
+        <mail>pbie2206@scs.ubbcluj.ro</mail>
+        <profesor>Profesor X</profesor>
+    </Student>
+</inbox>
