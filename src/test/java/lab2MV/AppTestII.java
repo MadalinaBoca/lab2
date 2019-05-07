@@ -77,8 +77,11 @@ public class AppTestII {
             NoteRepo noteRepo = new NoteRepo(new NotaValidator());
             float nota = 10;
             int data = 9;
+
             Nota nt = new Nota(nid, std, tema, nota, data);
-            noteRepo.save(nt,"feedback good");
+            float nota2 = nt.getValoare();
+            Nota nt2 = new Nota(nid, std, tema, nota2, data);
+            noteRepo.save(nt2,"feedback good");
         }
         else throw new NullPointerException();
 

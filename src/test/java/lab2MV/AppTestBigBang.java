@@ -66,7 +66,7 @@ public class AppTestBigBang {
         Nota nt = new Nota(nid, student, tema, nota, data);
 
         float nota2 = nt.getValoare();
-        Nota nt2 = new Nota(nid, student, tema, nota, data);
+        Nota nt2 = new Nota(nid, student, tema, nota2, data);
 
         noteRepo.save(nt2,"feedback good");
 

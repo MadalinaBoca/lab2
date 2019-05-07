@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c0ef588-1018-4bee-a6f2-2f79fdbf231c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/lab2MV/AppTestII.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Catalog2.xml" afterPath="$PROJECT_DIR$/Catalog2.xml" />
-      <change beforePath="$PROJECT_DIR$/Popsor Alexandru.xml" afterPath="$PROJECT_DIR$/Popsor Alexandru.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2MV/AppTestBigBang.java" afterPath="$PROJECT_DIR$/src/test/java/lab2MV/AppTestBigBang.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2MV/AppTestII.java" afterPath="$PROJECT_DIR$/src/test/java/lab2MV/AppTestII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="AppTestBigBang.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/lab2MV/AppTestBigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="70" column="43" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="70" selection-end-column="43" />
+            <state relative-caret-position="296">
+              <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -31,8 +30,8 @@
       <file leaf-file-name="AppTestII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/lab2MV/AppTestII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+            <state relative-caret-position="549">
+              <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2243#2260#0" expanded="true" />
@@ -500,7 +499,7 @@
       <workItem from="1555326019960" duration="59000" />
       <workItem from="1555326451812" duration="33000" />
       <workItem from="1555485718659" duration="2054000" />
-      <workItem from="1557233279458" duration="1483000" />
+      <workItem from="1557233279458" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1553071674627</created>
@@ -520,9 +519,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTestBigBang - 2019.04.17 at 10h 46m 33s.xml">
-      <configuration name="AppTestBigBang" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTestBigBang - 2019.04.17 at 10h 48m 21s.xml">
       <configuration name="AppTestBigBang" configurationId="JUnit" />
     </history-entry>
@@ -550,13 +546,15 @@
     <history-entry file="AppTestII - 2019.05.07 at 16h 12m 31s.xml">
       <configuration name="AppTestII" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTestII - 2019.05.07 at 16h 12m 54s.xml">
+      <configuration name="AppTestII" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25378000" />
+    <option name="totallyTimeSpent" value="26211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -566,9 +564,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34819278" sideWeight="0.5028612" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27863047" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5903188" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3120482" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7922078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21911922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -823,16 +821,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lab2MV/AppTestBigBang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="70" column="43" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="70" selection-end-column="43" />
+        <state relative-caret-position="296">
+          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lab2MV/AppTestII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        <state relative-caret-position="549">
+          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2243#2260#0" expanded="true" />

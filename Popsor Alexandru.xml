@@ -68,3 +68,13 @@
         <feedback>feedback good</feedback>
     </Nota>
 </Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="1113101">
+        <nr>101</nr>
+        <valoare>10.0</valoare>
+        <predat>9</predat>
+        <deadline>10</deadline>
+        <feedback>feedback good</feedback>
+    </Nota>
+</Note>
