@@ -14,8 +14,10 @@ public class Nota implements hasID<Map.Entry<String,Integer>>{
         this.id=id;
         this.st=s;
         this.tm=t;
-        this.valoare=val;
+        this.valoare = val;
         this.data=d;
+
+        this.valoare = getValoare();
     }
     public Map.Entry<String,Integer> getID(){
         return id;

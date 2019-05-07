@@ -79,9 +79,8 @@ public class AppTestII {
             int data = 9;
 
             Nota nt = new Nota(nid, std, tema, nota, data);
-            float nota2 = nt.getValoare();
-            Nota nt2 = new Nota(nid, std, tema, nota2, data);
-            noteRepo.save(nt2,"feedback good");
+
+            noteRepo.save(nt,"feedback good");
         }
         else throw new NullPointerException();
 
